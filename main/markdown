@@ -1,0 +1,64 @@
+##### _syed ali mohsin kazmi_
+##### _CS-192039_
+# **How to setup Apache tomcat on Linux**
+**First Step**: make directory for apache tomcat
+```sh
+make directory for apache tomcat
+```
+
+
+**Second Step**: use wget command to download tar file using the link obtained from the apache tomcat project site.
+```sh
+"Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"
+```
+
+
+**Third Step**: _Decompress file in tomcat folder_
+```sh
+"Decompress file in tomcat folder"
+```
+<img src="C:\Users\Nabeel\Desktop\OS Final\3.png" align="center" style="height: 200px width: 200px"/>
+
+**Fourth Step**: _Install Java_
+```sh
+"Install Java"
+```
+<img src="C:\Users\DELL\OneDrive\Pictures\44.png" align="center" style="height: 200px width: 200px"/>
+
+**Fifth Step**: _Verify Java installation_
+```sh
+Verify Java installation
+```
+<img src="C:\Users\DELL\OneDrive\Pictures\5.png" align="center" style="height: 200px width: 200px"/>
+
+**Sixth Step**: _Configure .bashrc file_
+```sh
+"Configure .bashrc file"
+```
+<img src="C:\Users\DELL\OneDrive\Pictures\6.png" align="center" style="height: 200px width: 200px"/>
+
+**Seventh Step**:
+```sh
+¬Add the following lines at the end of the file
+```
+<img src="C:\Users\DELL\OneDrive\Pictures\7.png" align="center" style="height: 200px width: 200px"/>
+<img src="C:\Users\DELL\OneDrive\Pictures\77.png" align="center" style="height: 200px width: 200px"/>
+
+**Eight Step**: _run the following command to make the changes take effect_
+```sh
+"run the following command to make the changes take effect"
+```
+<img src="C:\Users\DELL\OneDrive\Pictures\8.png" align="center" style="height: 200px width: 200px"/>
+
+**Ninth Step**: _Tomcat and java are now installed and configured, run the following script to run tomcat_
+```sh
+Tomcat and java are now installed and configured, run the following script to run tomcat
+```
+<img src="C:\Users\DELL\OneDrive\Pictures\9.png" align="center" style="height: 200px width: 200px"/>
+
+
+<p>&nbsp;</p>
+
+<img src="C:\Users\Nabeel\Desktop\OS Final\18.png" align="center" style="height: 200px width: 200px"/>
+<p>&nbsp;</p>
+<img src="C:\Users\Nabeel\Desktop\OS Final\19.png" align="center" style="height: 200px width: 200px"/>
